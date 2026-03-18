@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultații & Profilaxie | Quantas Repro Vet</title>
+    <meta name="description" content="Quantas Repro Vet oferă consultații veterinare amănunțite și planuri de profilaxie în Cluj-Napoca.">
+    <meta property="og:title" content="Consultații & Profilaxie | Quantas Repro Vet">
+    <meta property="og:description" content="Quantas Repro Vet oferă consultații veterinare amănunțite și planuri de profilaxie în Cluj-Napoca.">
+    <meta property="og:url" content="https://quantas-repro-vet.vercel.app/consultatii.html">
+    <meta property="og:image" content="https://quantas-repro-vet.vercel.app/img/brand-preview.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=1.0.6">
+    <link rel="icon" href="img/brand-logo.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body class="subpage">
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header id="navbar" class="scrolled">
+        <a href="index.html" class="logo">
+            <img src="img/brand-logo.png" alt="Logo Quantas Repro Vet" class="logo-mark" loading="eager" decoding="async">
+            <span class="logo-name">Quantas Repro Vet</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html#servicii">Înapoi la Servicii</a>
+            <a href="index.html#programare" class="btn btn-emerald" style="padding: 10px 24px; font-size: 0.95rem;">Programare</a>
+        </nav>
+        <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <section class="subpage-hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <span class="badge">Prevenție & Sănătate</span>
+                <h1>Consultații & <br> Profilaxie</h1>
+                <p>Sănătatea începe cu o examinare atentă. Planurile noastre de profilaxie sunt concepute să prevină problemele înainte ca ele să apară.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="bento-grid">
+                <div class="service-card bento-wide reveal">
+                    <div class="service-icon"><i class="fa-solid fa-notes-medical"></i></div>
+                    <h3>Check-up Complet</h3>
+                    <p>O analiză detaliată a fiecărui sistem al organismului, de la starea blănii până la funcțiile interne, pentru o viziune clară asupra sănătății.</p>
+                </div>
+                <div class="service-card bento-tall reveal">
+                    <div class="service-icon"><i class="fa-solid fa-syringe"></i></div>
+                    <h3>Vaccinare & Deparazitare</h3>
+                    <p>Calendare de imunizare personalizate și protocoale de deparazitare adaptate stilului de viață al animalului tău.</p>
+                    <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?q=80&w=800" alt="Vaccinare" style="margin-top: 2rem; border-radius: 12px;" loading="lazy">
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-bowl-food"></i></div>
+                    <h3>Nutriție Personalizată</h3>
+                    <p>Consultantul nostru nutrițional te ajută să alegi dieta perfectă pentru vârsta, rasa și nevoile specifice ale prietenului tău.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-tooth"></i></div>
+                    <h3>Sănătate Orală</h3>
+                    <p>Evaluări periodice ale dentiției și sfaturi pentru igiena orală acasă, pentru un zâmbet sănătos și fără durere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background: var(--primary-light);">
+        <div class="container text-center reveal">
+            <h2>Vrei să stabilim un plan de sănătate?</h2>
+            <p style="margin-bottom: 2rem;">Echipa noastră este pregătită să îți ofere cele mai bune sfaturi preventive.</p>
+            <a href="index.html#programare" class="btn btn-emerald">Programează o Vizită</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom" style="border: none;">
+                <p>&copy; 2026 Quantas Repro Vet. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=1.0.6"></script>
+    <script>
+        gsap.from(".subpage-hero h1", { y: 50, opacity: 0, duration: 1, ease: "power3.out", delay: 0.3 });
+        gsap.from(".subpage-hero p", { y: 30, opacity: 0, duration: 1, ease: "power3.out", delay: 0.5 });
+    </script>
+</body>
+</html>

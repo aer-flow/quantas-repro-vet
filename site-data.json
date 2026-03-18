@@ -1,0 +1,19 @@
+{
+  "brand_tagline": "Clinica Veterinara",
+  "city": "Cluj-Napoca",
+  "site_url": "https://quantas-repro-vet.vercel.app/",
+  "phone_display": "0744 695 630",
+  "email": "contact@example.com",
+  "address": "Strada Valea Seacă 1a, 400227 Cluj-Napoca",
+  "instagram_url": "#",
+  "facebook_url": "#",
+  "linkedin_url": "#",
+  "copyright_year": "2026",
+  "brand_name": "Quantas Repro Vet",
+  "logo_path": "img/brand-logo.png",
+  "preview_image_path": "img/brand-preview.png",
+  "phone_link": "0744695630",
+  "whatsapp_number": "0744695630",
+  "map_embed_url": "https://www.google.com/maps?q=Strada%20Valea%20Seac%C4%83%201a%2C%20400227%20Cluj-Napoca&output=embed",
+  "og_image_url": "https://quantas-repro-vet.vercel.app/img/brand-preview.png"
+}
